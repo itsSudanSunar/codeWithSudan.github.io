@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>navbar</title>
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+			box-sizing: border-box;
+		}
+.navbar{
+	border-bottom: 1px solid black;
+	padding: 20px;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+
+}
+p{
+	font-family: 'Send Flowers', cursive;
+}
+
+
+a{
+	
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bolder;
+	text-transform: capitalize;
+	color: black;
+}
+li{
+	margin-right: 20px;
+	display: inline-block;
+}
+ul{
+	text-align: right;
+}
+.btn1{
+	color: white;
+	padding: 5px 30px;
+	border: 1px solid black;
+	border-radius: 10px;
+	color: white;
+	background: red;
+}
+.section{
+	margin-right: 20px;
+	margin-left: 20px;
+	display: flex;
+	margin-top: 30px;
+
+}
+.firstImage{
+	width: 500px;
+}
+.rightContent{
+	margin: auto;
+
+}
+.contentHeading{
+	text-align: center;
+}
+.contentParagraph{
+padding: 0px 50px;
+font-size: 25px;
+}
+.contentButton{
+	color: white;
+	text-align: center;
+	background: red;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-transform: capitalize;
+	opacity: 1;
+	padding: 10px 15px;
+}
+.card{
+	width:25%;
+box-shadow: 0px 5px 15px rgba(0,0,0,0.9);
+padding: 50px 20px;
+text-align: center;
+
+}
+.card-collection{
+	margin: 0px 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.testimonials{
+	margin: 0px 30px;
+	display: flex;
+justify-content: space-between;
+padding-bottom: 70px;
+}
+
+
+.firstTestimonials
+{
+	width: 45%;
+	text-align: justify;
+	padding: 20px 50px;
+	border-radius: 10px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 1.0);
+	background: lightslategray;
+
+}
+footer{
+	padding: 50px 0px;
+	margin: 0px 20px;
+}
+@media screen and (max-width:1110px)
+{
+.section{
+	display: block;
+	text-align: center;
+	margin-right: 20px;
+}
+.contentParagraph{
+	margin-bottom: 0px;
+}
+.rightContent{
+	margin-top: 20px;
+}
+.contentHeading{
+	margin-bottom: 10px;
+}
+
+
+.card{
+	width:35%;
+box-shadow: 0px 5px 15px rgba(0,0,0,0.9);
+padding: 50px 20px;
+text-align: center;
+font-size: 19px;
+
+}
+.card-collection{
+	margin: 0px 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.cardHeading{
+	font-size: 20px;
+}
+.cardParagraph{
+	font-size: 17px;
+}
+}
+
+@media screen and (max-width:920px)
+{
+.card{
+	width:55%;
+box-shadow: 0px 5px 15px rgba(0,0,0,0.9);
+padding: 50px 20px;
+text-align: center;
+margin-bottom: 20px;
+
+}
+.card-collection{
+	text-align: center;
+	margin: 0px 20px;
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.testimonials{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 20px;
+
+}
+.firstTestimonials{
+	width: 95%;
+	margin-bottom: 30px;
+}
+
+
+}
+
+@media screen and (max-width: 680px)
+{
+
+
+a{
+	font-size: 17px;
+}
+.btn1{
+	font-size: 15px;
+	padding: 0px 4px;
+
+}
+
+
+
+
+}
+p{
+	text-align: justify;
+}
+
+
+
+	</style>
+</head>
+<body>
+
+<div class="navbar">
+	<div>
+		<h1 style="color: darkblue;">codeWithSudan</h1>
+	</div>
+
+	<div>
+	<ul>
+		<li><a href="#">home</a></li>
+		<li><a href="#">course</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">contact</a></li>
+		<li><button class="btn1">login</button></li>
+		<li><button class="btn1">signUp</button></li>
+	</ul>
+	</div>
+
+</div>
+
+
+<div class="section">
+	<div class="leftContent" style="margin: auto;">
+		<h1 class="contentHeading"> Welcome to <span style="color: darkblue;">CodeWithSudan</span></h1>
+		<p class="contentParagraph">Confused on which course to take? I have got you covered. Browse courses and find out the best course for you. Its free! Code With Harry is my attempt to teach basics and those coding techniques to people in short time which took me ages to learn.</p>
+		<br><br>
+		<center>
+		<button class="contentButton" style="background: darkblue;">Free course</button>&nbsp;&nbsp;&nbsp;
+		<button class="contentButton" style="background: lightgray;color: black;">Explore Blog</button>
+	</center>
+	</div>
+	
+<div class="rightContent">
+	<img src="image.jpg" class="firstImage">	
+</div>
+</div>
+
+<h1 style="color:darkblue;font-size: 34px;text-transform: uppercase;text-align: center;margin-top: 20px;">Recommend</h1>
+<br>
+<br>
+
+<div class="card-collection">
+
+<!-- this is the first card -->
+<div class="card">
+	<img src="first.jpg" style="overflow: none;" width="70%">
+	<div class="card-body">
+		<h1 style="color:darkblue;padding:0px 10px;" class="cardHeading">Tailwind Course In Hindi</h1>
+		<p style="padding: 20px 0px;" class="cardParagraph">Complete Tailwind CSS Course by CodeWithHarry in Hindi - Learn Tailwind CSS from scratch for free!</p>
+		<button style="color:white;background: darkblue;padding: 3px 10px;border-radius: 20px;">start watching</button>
+	</div>
+</div>
+	
+
+
+<!-- this is the second card -->
+	
+<div class="card">
+	<img src="fifth.jpg" style="overflow: none;" width="70%">
+	<div class="card-body">
+		<h1 style="color:darkblue;padding:0px 10px;" class="cardHeading">Tailwind Course In Hindi</h1>
+		<p style="padding: 20px 0px;" class="cardParagraph">Complete Tailwind CSS Course by CodeWithHarry in Hindi - Learn Tailwind CSS from scratch for free!</p>
+		<button style="color:white;background: darkblue;padding: 3px 10px;border-radius: 20px;">start watching</button>
+	</div>
+</div>
+	
+
+
+
+
+
+<!-- this is the third card -->
+	
+<div class="card">
+	<img src="second.webp" style="overflow: none;" width="70%">
+	<div class="card-body">
+		<h1 style="color:darkblue;padding:0px 10px;" class="cardHeading">Tailwind Course In Hindi</h1>
+		<p style="padding: 20px 0px;" class="cardParagraph">Complete Tailwind CSS Course by CodeWithHarry in Hindi - Learn Tailwind CSS from scratch for free!</p>
+		<button style="color:white;background: darkblue;padding: 3px 10px;border-radius: 20px;">start watching</button>
+	</div>
+</div>
+	
+
+
+</div>
+
+
+<h1 style="color:darkblue;font-size: 34px;text-transform: uppercase;text-align: center;margin: 20px 0px;">Testomonials</h1>
+
+
+
+
+<div class="testimonials">
+
+<div class="firstTestimonials">
+	<h1 style="font-size: 34px;">""</h1>
+	<p>I don't have words to thank this man, I'm really grateful to have this channel and website in my daily routine. If you're a mere beginner, then you can trust this guy and can put your time into his content. I can assure you that it'll be worth it.</p>
+<br>
+	<h5>Mohit Kumar</h5>	
+	<cite>web Developer</cite>
+</div>
+
+
+<div class="firstTestimonials">
+	<h1 style="font-size: 34px;">""</h1>
+	<p>I don't have words to thank this man, I'm really grateful to have this channel and website in my daily routine. If you're a mere beginner, then you can trust this guy and can put your time into his content. I can assure you that it'll be worth it.</p>
+<br>
+	<h5>Mohit Kumar</h5>	
+	<cite>web Developer</cite>
+</div>
+
+
+	
+	
+
+</div>
+
+<footer>
+<span>
+<img src="baby.webp" style="border-radius: 100px;" width="50px">
+<big>CodeWithHarry</big>	|
+</span>	
+<span>
+	Copyright © 2022 CodeWithSudan.com
+</span>
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>
